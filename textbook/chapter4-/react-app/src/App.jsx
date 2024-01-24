@@ -7,10 +7,6 @@ export const App = () => {
     setNum((prev) => prev + 1);
   }
 
-  useEffect(() => {
-    alert();
-  }, [num]);
-
   return (
     <>
       <h1 style={{ color: "red" }}>こんにちは！</h1>
