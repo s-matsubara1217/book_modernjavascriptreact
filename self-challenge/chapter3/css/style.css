@@ -1,0 +1,27 @@
+.contentArea {
+  border: solid 1px #ccc;
+  padding: 16px;
+  margin-top: 16px;
+}
+
+.memoList__item {
+  margin-top: 16px;
+}
+.memoList__item:first-child {
+  margin-top: 0;
+}
+
+.memoList__item__inner {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+}
+
+button {
+  margin-left: 8px;
+}
+
+.memoList__item__text {
+  margin: 0;
+}

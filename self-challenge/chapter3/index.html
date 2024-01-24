@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>簡単メモアプリ</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <h1 class="title">簡単メモアプリ</h1>
+    <div class="inputArea">
+      <input id="inputText" type="text" value="" />
+      <button id="addBtn">追加</button>
+    </div>
+    <div class="contentArea">
+      <h2 class="contentArea__title">メモ一覧</h2>
+      <ul id="memoList" class="memoList">
+        <li class="memoList__item">
+          <div class="memoList__item__inner">
+            <p class="memoList__item__text">本を読む</p>
+            <button class="deleteBtn">削除</button>
+          </div>
+        </li>
+        <li class="memoList__item">
+          <div class="memoList__item__inner">
+            <p class="memoList__item__text">本を読む</p>
+            <button class="deleteBtn">削除</button>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>

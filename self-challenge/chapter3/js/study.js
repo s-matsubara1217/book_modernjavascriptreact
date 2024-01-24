@@ -249,9 +249,11 @@ if (flag1 && flag2) {
   console.log("フラグは両方trueです");
 }
 */
+/*
 const num2 = 100;
 const fee2 = num2 && [];
 console.log(fee2);
+*/
 
 // 「||」はその左側がfalse判定なら右側を返す
 // 「&&」はその左側がtrue判定なら右側を返す
